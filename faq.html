@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <title>FAQ</title>
+    </head>
+    <body>
+        <section class="showcase">
+          <header>
+            <h2 class="logo">The Environmental Study - FAQ</h2>
+            <div class="toggle"></div>
+          </header>
+          <video src="video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+                <p><button type="button" class="button button1" onclick="myFunction(1)"><h4> Is the Sun causing global warming?</h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq1"> The Sun can influence Earth’s climate, but it isn’t responsible for the warming trend we’ve seen over the past few decades.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(2)"><h4> What happens if the next solar cycle becomes less active? Will we go into a new ice age? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq2">No. Even if the amount of radiation coming from the Sun were to decrease as it has before, it would not significantly affect the global warming coming from long-lived, human-emitted greenhouse gases. Further, given our greenhouse gas emissions to date and those expected to come, the evidence points to the next “ice age” being averted altogether.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(3)"><h4> Is the ozone hole causing climate change? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq3">Yes and no. The ozone hole is not causing global warming, but it is affecting atmospheric circulation.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(4)"><h4> Is the ocean continuing to warm? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq4">​Yes, the ocean is continuing to warm. Notably, all ocean basins have been experiencing significant warming since 1998, with more heat being transferred deeper into the ocean since 1990.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(5)"><h4> Which is a bigger methane source: cow belching or cow flatulence? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq5">​Contrary to common belief, it’s cow belching due to enteric fermentation.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(6)"><h4> What kinds of data do scientists use to study climate? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq6">Climate researchers use every possible direct and indirect measurement to study the full history of Earth's climate, from the latest satellite observations to samples of prehistoric ice extracted from glaciers.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(7)"><h4> What do volcanoes have to do with climate change? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq7">Overall, volcanoes release less than 2 percent of the equivalent amount of CO2 released by human activities. Quite small.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(8)"><h4> Which measurement is more accurate: taking Earth’s surface temperature from the ground or from space? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq8">Since satellites technically measure neither temperature nor the surface (where people live), it’s safe to say that ground thermometers are more accurate than satellite measurements.</div>
+                <p><button type="button" class="button button1" onclick="myFunction(9)"><h4> How is climate likely to change in the future? </h4></button></p>
+                <div style="display: none; background: #008CBA; border : 1px solid black; padding: 4px 8px;" id = "faq9">The Earth's future climate will depend on whether the world manages to slow or even reduce greenhouse gas emissions, but warming is likely to continue.</div>
+        </div>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/groups/environmentandclimatenews/about/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="https://twitter.com/GretaThunberg"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://instagram.com/unclimatechange?igshid=1c0l685frv2y3"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+        </section>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="https://climate.nasa.gov/earth-now/">EARTH-NOW</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">REFERENCES</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+          </ul>
+        </div>
+        <script>
+          const menuToggle = document.querySelector('.toggle')
+          const showcase = document. querySelector('.showcase')
+          menuToggle.addEventListener('click',() => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+          })
+        </script>
+        <script>
+            function myFunction(y) {
+                var x = document.getElementById("faq" + y);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+      </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <title>REFERENCES</title>
+    </head>
+    <body>
+        <section class="showcase">
+          <header>
+            <h2 class="logo">The Environmental Study - REFERENCES</h2>
+            <div class="toggle"></div>
+          </header>
+          <video src="video.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+        <div class="text">
+            <h4>For more information about climate change, please visit these sites.</h4>
+            <ul>
+                <li><a href="https://climate.nasa.gov">NASA Global Climate Change</a></li>
+                <li><a href="https://www.newscientist.com/topic/climate-change">New Scientist Climate Change</a></li>
+                <li><a href="https://globalwarmingisreal.com">Global Warming is Real</a></li>
+                <li><a href="http://www.yaleclimatemediaforum.org/">The Yale Forum on Climate Change & The Media</a></li>
+                <li><a href="http://www.climatecentral.org/">Climate Central</a></li>
+                <li><a href="http://www.who.int/globalchange/en/">Climate and Health: A World Health Organization Forum</a></li>
+              </ul>
+        </div>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/groups/environmentandclimatenews/about/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="https://twitter.com/GretaThunberg"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://instagram.com/unclimatechange?igshid=1c0l685frv2y3"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+          </ul>
+        </section>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="https://climate.nasa.gov/earth-now/">EARTH-NOW</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">REFERENCES</a></li>
+            <li><a href="donate.html">DONATE</a></li>
+          </ul>
+        </div>
+        <script>
+          const menuToggle = document.querySelector('.toggle')
+          const showcase = document. querySelector('.showcase')
+          menuToggle.addEventListener('click',() => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+          })
+        </script>
+        <script>
+            function myFunction(y) {
+                var x = document.getElementById("faq" + y);
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+        </script>
+      </body>
+</html>
