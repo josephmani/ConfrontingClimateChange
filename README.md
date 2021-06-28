@@ -1,15 +1,15 @@
 # CONFRONTING CLIMATE CHANGE
 ### (Web Application and Exploratory Data Analysis)
 
-Project Website Link available [here] (https://josephmani.github.io/ConfrontingClimateChange/)
+Project Website Link available [here](https://josephmani.github.io/ConfrontingClimateChange/)
 
 ## Abstract:
 
-*This Web Application intends to spread awareness on Climate Change's impacts using the concepts of Exploratory Data Analysis (EDA) with Statistical Regression Models and Graphs.
+* This Web Application intends to spread awareness on Climate Change's impacts using the concepts of Exploratory Data Analysis (EDA) with Statistical Regression Models and Graphs.
 
-*It aims to emphasize abstract concepts like climate change, analyzing the levels of Carbon Dioxide and greenhouse gas emission data over the last few decades.
+* It aims to emphasize abstract concepts like climate change, analyzing the levels of Carbon Dioxide and greenhouse gas emission data over the last few decades.
 
-*Ultimately, our web app will help people understand the severity of this Global Issue.
+* Ultimately, our web app will help people understand the severity of this Global Issue.
 
 
 ## Technical Details:
